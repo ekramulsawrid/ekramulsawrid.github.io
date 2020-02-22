@@ -1,0 +1,339 @@
+html {
+    background-image: url("../img/graphOcean.jpg");
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow-y: auto;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    background-image: url("/img/graphOcean.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow-y: auto;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    background: black;
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: white 3px solid;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+header ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #title-author {
+    float: left;
+}
+
+header #title-author h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 12px;
+    padding: 15px 0px;
+    border-bottom: white 5px solid;
+}
+
+.main {
+    margin: 15px auto;
+    max-width: 1600px;
+}
+
+#poster {
+    color: black;
+    text-align: center;
+    /* background: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.75)); */
+    background: linear-gradient(white, white, white, rgba(255, 255, 255, 0.8));
+    border-radius: 24px;
+    margin: 15px;
+    padding: 15px;
+    min-height: 200px;
+}
+
+#poster h1 {
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#links {
+    color: black;
+    text-align: center;
+    /* background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.50)); */
+    background: linear-gradient(white, rgba(255, 255, 255, 0.8));
+    border-radius: 24px;
+    margin: 10px;
+    padding: 10px;
+    min-height: 100px;
+    
+}
+
+.btn {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background-color: #f1f1f1;
+    margin: 10px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px 5px #00000070;
+    color: #3498db;
+    overflow: hidden;
+    line-height: 80px;
+}
+
+.bth i {
+    font-size: 25px;
+}
+
+.btn:hover i {
+    transform: scale(2);
+    color: #f1f1f1;
+    transition: 0.15s linear;  
+}
+
+.btn:hover {
+    background:  #3498db;
+    transition: .15s linear;
+}
+
+.flex-container {
+    background-color: palevioletred;
+    height: 300px;
+}
+
+.projects-list:hover {
+    background: none;
+}
+
+.projects-list:hover .flex-container-item {
+    background: none;
+}
+
+
+#projects-block {
+    color: black;
+    background: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    height: 1000px;
+    /* background: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.75)); */
+    background: linear-gradient(white, rgba(255, 255, 255, 0.60), rgba(255, 255, 255, 0.30));
+    border-radius: 24px;
+    margin: 15px;
+    min-height: 200px;
+}
+
+.projects-list {
+    background: palevioletred;
+    height: auto;
+    width: auto;
+    margin: 20px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.flex-container-item {
+    background: white;
+    /* background-color: rgba(255, 255, 255, 0.0); */
+    text-align: center;
+    align-items: stretch;
+    height: 200px;
+    margin: 5px;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.flex-container-item-picture {
+    /* background: url("/img/graphOcean.jpg");  */
+    background-size: cover;
+    text-align: center;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    
+
+    width: 100px;
+    height: auto;
+    margin: 0px;
+
+    max-height: 100px;
+
+    flex-grow: 1;
+}
+
+.hidden-message {
+    tansition: 0.5 ease;
+    opacity: 0;
+
+    text-align: center;
+
+}
+.flex-container-item-picture:hover {
+    transform: scale(1.1);
+    border-width: 5px;
+    transition: 0.15s linear;
+}
+
+.flex-container-item-picture:hover img {
+    border-radius: 12px;
+}
+
+.flex-container-item-picture:hover .hidden-message {
+    opacity: 1;
+}
+
+.flex-container-item-picture > img {
+    width:  100%;
+    height: 200px;
+    opacity: 1;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    
+}
+
+.flex-container-item-info {
+    background: whitesmoke;
+    border-style: solid;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding-left: 15px;
+
+    width: 100px;
+    /* height: 100px; */
+    line-height: 1px;
+    margin: 0px;
+    /* max-height: 100px; */
+
+    flex-grow: 6;
+    text-align: left;
+}
+
+.flex-container-item-info-title {
+    font-weight: bold;
+}
+
+.info-subinfo {
+    font-size: 18px;
+    font-style: italic;
+}
+
+.info-description {
+    font-size: 18px;
+}
+
+.info-direction {
+    font-size: 16px;
+}
+
+.project-links-btn {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #f1f1f1;
+    margin: auto;
+    width: 15%;
+    border-radius: 6px;
+    color: #3498db;
+    overflow: hidden;
+    line-height: 45px;
+    border-color: #3498db;
+    border-style: solid;
+    text-decoration: none;
+}
+
+.project-links-btn i {
+    font-size: 30px;
+}
+
+.project-links-btn:hover i {
+    color: #f1f1f1;
+    transition: .15s linear;
+}
+
+.project-links-btn:hover {
+    background: #3498db;
+    color: #f1f1f1;
+    transition:.15s linear;
+}
+
+/* Media Queries */
+
+@media(max-width: 1200px) {
+    header #title-author,
+    header nav,
+    header nav li {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    header nav {
+        margin-bottom: 30px;
+    }
+
+    header li {
+        height: 40px;
+        padding: 0px;
+    }
+}
+
+@media(max-width: 700px) {
+    header li {
+        display: block;
+        margin: 5px;
+    }
+}
+
+
+
