@@ -202,30 +202,49 @@ header a:hover {
     
 
     width: 100px;
-    height: auto;
     margin: 0px;
-
-    max-height: 100px;
 
     flex-grow: 1;
 }
 
 .hidden-message {
-    tansition: 0.5 ease;
-    opacity: 0;
-
+    line-height: 150px;
+    color: black;
+    font-size: 25px;
     text-align: center;
+    opacity: 0;
+    transition: 0.15s ease;
+    /* tansition: 0.15 ease;
+    opacity: 0;
+    text-align: center; */
 
 }
 .flex-container-item-picture:hover {
     transform: scale(1.1);
     border-width: 5px;
+    border-style: solid;
+    border-radius: 12px;
     transition: 0.15s linear;
 }
 
-.flex-container-item-picture:hover img {
-    border-radius: 12px;
+.project-thumbnail-overlay {
+    transition: .15 ease;
+    background: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
 }
+
+.flex-container-item-picture:hover .project-thumbnail-overlay {
+    opacity: 0.75;
+    height: 100%;
+    width: 100%;
+}
+
+    /* .flex-container-item-picture:hover img {
+        border-radius: 12px;
+    } */
 
 .flex-container-item-picture:hover .hidden-message {
     opacity: 1;
@@ -236,8 +255,7 @@ header a:hover {
     height: 200px;
     opacity: 1;
     border-top-left-radius: 12px;
-    border-bottom-left-radius: 12px;
-    
+    border-bottom-left-radius: 12px;    
 }
 
 .flex-container-item-info {
