@@ -183,7 +183,7 @@ header a:hover {
     /* background-color: rgba(255, 255, 255, 0.0); */
     text-align: center;
     align-items: stretch;
-    height: 200px;
+    height: 300px;
     margin: 5px;
     
     display: flex;
@@ -208,12 +208,14 @@ header a:hover {
 }
 
 .hidden-message {
-    line-height: 150px;
+    color: black;
+    text-align: center;
+    /* line-height: 150px;
     color: black;
     font-size: 25px;
     text-align: center;
     opacity: 0;
-    transition: 0.15s ease;
+    transition: 0.15s ease; */
     /* tansition: 0.15 ease;
     opacity: 0;
     text-align: center; */
@@ -234,6 +236,11 @@ header a:hover {
     top: 0;
     left: 0;
     opacity: 0;
+    border-radius: 12px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .flex-container-item-picture:hover .project-thumbnail-overlay {
@@ -263,11 +270,11 @@ header a:hover {
     border-style: solid;
     border-top-right-radius: 12px;
     border-bottom-right-radius: 12px;
-    padding-left: 15px;
+    padding: 0px 15px 0px 5px;
 
     width: 100px;
     /* height: 100px; */
-    line-height: 1px;
+    line-height: 20px;
     margin: 0px;
     /* max-height: 100px; */
 
@@ -275,21 +282,41 @@ header a:hover {
     text-align: left;
 }
 
+.grid-project-info {
+    background: palegreen;
+    border-style: solid;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    width: 75%;
+
+    display: grid;
+    align-content: flex-start;
+    line-height: 20px;
+}
+
+.grid-project-info-header {
+    line-height: 1px;
+}
+
 .flex-container-item-info-title {
     font-weight: bold;
+    line-height: 1px;
 }
 
 .info-subinfo {
     font-size: 18px;
     font-style: italic;
+    line-height: 1px;
 }
 
 .info-description {
     font-size: 18px;
+    line-height: 20px;
 }
 
 .info-direction {
     font-size: 16px;
+    line-height: 1px;
 }
 
 .project-links-btn {
@@ -301,6 +328,7 @@ header a:hover {
     background-color: #f1f1f1;
     margin: auto;
     width: 15%;
+    min-width: 40px;
     border-radius: 6px;
     color: #3498db;
     overflow: hidden;
@@ -342,7 +370,7 @@ header a:hover {
 
     header li {
         height: 40px;
-        padding: 0px;
+        padding: 0px 20px;
     }
 }
 
@@ -350,6 +378,7 @@ header a:hover {
     header li {
         display: block;
         margin: 5px;
+        padding: 0px;
     }
 }
 
