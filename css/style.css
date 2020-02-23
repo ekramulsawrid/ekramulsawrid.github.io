@@ -63,6 +63,28 @@ header #title-author {
 header #title-author h1 {
     margin: 0;
 }
+/* #title-author:hover {
+    animation-name: effect-brand;
+    animation-duration: 2s;
+}
+
+@keyframes effect-brand {
+    0% {
+        color: #00feca;
+    }
+    25% {
+        color: #fdf200 
+    }
+    50% {
+        color: #ff85ea;
+    }
+    75% {
+        color: #7b61f8;
+    }
+    100% {
+        color: #00feca;;
+    }
+} */
 
 header nav {
     float: right;
