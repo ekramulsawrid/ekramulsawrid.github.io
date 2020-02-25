@@ -405,6 +405,7 @@ header a:hover {
 
     #projects-block {
         margin: 0px;
+        height: auto;
     }
 
     .projects-list {
@@ -419,12 +420,16 @@ header a:hover {
     .flex-container-item-picture {
         height: 50%;
         width: auto;
+        border-top-right-radius: 12px;
+        border-bottom-left-radius: 0px;
         flex-grow: 6;
     }
 
     .flex-container-item-info {
         height: 50%;
         width: auto;
+        border-bottom-left-radius: 12px;
+        border-top-right-radius: 0px;
 
         
     }
@@ -439,6 +444,17 @@ header a:hover {
 
     .info-description {
         font-size: small;
+    }
+
+    .flex-container-item-picture:hover {
+        transform: scale(1);
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    .flex-container-item-picture:hover .project-thumbnail-overlay {
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
     }
 
 }
