@@ -402,6 +402,45 @@ header a:hover {
         margin: 5px;
         padding: 0px;
     }
+
+    #projects-block {
+        margin: 0px;
+    }
+
+    .projects-list {
+        margin: 0px;
+    }
+
+    .flex-container-item {
+        flex-direction: column;
+        height: 500px;
+    }
+
+    .flex-container-item-picture {
+        height: 50%;
+        width: auto;
+        flex-grow: 6;
+    }
+
+    .flex-container-item-info {
+        height: 50%;
+        width: auto;
+
+        
+    }
+
+    .flex-container-item-info-title {
+        font-size: large;
+    }
+
+    .info-subinfo {
+        font-size: smaller;
+    }
+
+    .info-description {
+        font-size: small;
+    }
+
 }
 
 
