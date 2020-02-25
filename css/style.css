@@ -159,6 +159,9 @@ header a:hover {
 .btn:hover {
     background:  #3498db;
     transition: .15s linear;
+    -webkit-transition: .15s linear;
+    -moz-transition: .15s linear;
+    -o-transition: .15s linear;
 }
 
 .flex-container {
@@ -245,17 +248,23 @@ header a:hover {
 }
 .flex-container-item-picture:hover {
     transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
     border-width: 5px;
     border-style: solid;
     border-radius: 12px;
     transition: 0.15s linear;
     -webkit-transition: 0.15s linear;
-    -moz-transition: 0.15s linear;
-    -o-transition: 0.15s linear;
+       -moz-transition: 0.15s linear;
+         -o-transition: 0.15s linear;
 }
 
 .project-thumbnail-overlay {
     transition: .15 ease;
+    /* -webkit-transition: 0.15s ease;
+       -moz-transition: 0.15s ease;
+         -o-transition: 0.15s ease; */
     background: white;
     position: absolute;
     top: 0;
@@ -274,9 +283,9 @@ header a:hover {
     width: 100%;
 }
 
-    /* .flex-container-item-picture:hover img {
-        border-radius: 12px;
-    } */
+/* .flex-container-item-picture:hover img {
+    border-radius: 12px;
+} */
 
 .flex-container-item-picture:hover .hidden-message {
     opacity: 1;
@@ -370,12 +379,18 @@ header a:hover {
 .project-links-btn:hover i {
     color: #f1f1f1;
     transition: .15s linear;
+    -webkit-transition: .15s linear;
+       -moz-transition: .15s linear;
+         -o-transition: .15s linear;
 }
 
 .project-links-btn:hover {
     background: #3498db;
     color: #f1f1f1;
     transition:.15s linear;
+    -webkit-transition: .15s linear;
+       -moz-transition: .15s linear;
+         -o-transition: .15s linear;
 }
 
 /* Media Queries */
@@ -451,6 +466,8 @@ header a:hover {
 
     .flex-container-item-picture:hover {
         transform: scale(1);
+        -webkit-transform: scale(1);
+            -ms-transform: scale(1);
         border-bottom-left-radius: 0px;
         border-bottom-right-radius: 0px;
     }
