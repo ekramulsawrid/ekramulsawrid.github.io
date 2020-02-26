@@ -27,6 +27,9 @@ body {
 .container {
     width: 80%;
     margin: auto;
+    /* margin: 0px 15px; */
+
+    max-width: 1570px;
 }
 
 header {
