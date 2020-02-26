@@ -421,6 +421,14 @@ header a:hover {
         padding: 0px;
     }
 
+    #poster {
+        margin: 15px 5px;
+    }
+
+    #links {
+        margin: 15px 5px;
+    }
+
     #projects-block {
         margin: 0px;
         height: auto;
@@ -433,6 +441,7 @@ header a:hover {
     .flex-container-item {
         flex-direction: column;
         height: 500px;
+        
     }
 
     .flex-container-item-picture {
