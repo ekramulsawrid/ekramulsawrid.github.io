@@ -13,4 +13,6 @@ Website was made from scratch.
 
 ## Version
 
+```
 * Beta
+```
