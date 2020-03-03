@@ -1,6 +1,6 @@
 # portfolio_website_one
 
-Website was made from scratch.
+Website was made from scratch. Site is still on work.
 
 ## Authors
 
@@ -13,6 +13,4 @@ Website was made from scratch.
 
 ## Version
 
-```
 * Beta
-```
