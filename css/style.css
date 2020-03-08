@@ -25,7 +25,8 @@ body {
     overflow-y: auto;
 }
 .container {
-    width: 80%;
+    /* width: 90%; */
+    min-width: auto;
     margin: auto;
     /* margin: 0px 15px; */
 
@@ -45,6 +46,7 @@ header a {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 20px;
+    padding: 15px 5px;
 }
 
 header ul {
@@ -61,6 +63,7 @@ header li {
 
 header #title-author {
     float: left;
+    padding-left: 15px;
 }
 
 header #title-author h1 {
@@ -98,8 +101,7 @@ header a:hover {
     background-color: white;
     color: black;
     border-radius: 12px;
-    padding: 15px 0px;
-    border-bottom: white 5px solid;
+    /* border-bottom: white 5px solid; */
 }
 
 .main {
