@@ -323,24 +323,35 @@ header a:hover {
 }
 
 .grid-project-info {
-    background: palegreen;
-    border-style: solid;
+    /* background: palegreen; */
+    /* border-style: solid; */
     border-top-right-radius: 12px;
     border-bottom-right-radius: 12px;
-    width: 75%;
+    width: 100%;
+    height: 100%;
 
     display: grid;
-    align-content: flex-start;
+    align-content: space-between;
+    
     line-height: 20px;
+}
+
+.flex-container-item-info-title {
+    font-weight: bold;
+    line-height: 1px;
 }
 
 .grid-project-info-header {
     line-height: 1px;
 }
 
-.flex-container-item-info-title {
-    font-weight: bold;
-    line-height: 1px;
+.grid-project-info-description {
+    height: 145px;
+    max-height: 150px;
+}
+
+.grid-project-info-footer {
+    margin: 10px 0px;
 }
 
 .info-subinfo {
@@ -352,6 +363,7 @@ header a:hover {
 .info-description {
     font-size: 18px;
     line-height: 20px;
+    margin: 0px;
 }
 
 .info-direction {
@@ -471,6 +483,11 @@ header a:hover {
 
     .flex-container-item-info-title {
         font-size: large;
+    }
+
+    .grid-project-info-description {
+        height: 100px;
+        max-height: 150px;
     }
 
     .info-subinfo {
