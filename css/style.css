@@ -190,14 +190,15 @@ header a:hover {
     height: auto;
     padding-bottom: 10px;
     /* background: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.75)); */
-    background: linear-gradient(white, rgba(255, 255, 255, 0.60), rgba(255, 255, 255, 0.30));
+    /* background: linear-gradient(white, rgba(255, 255, 255, 0.60), rgba(255, 255, 255, 0.30)); */
+    background: linear-gradient(white, rgba(255, 255, 255, 0.8));
     border-radius: 24px;
     margin: 15px;
     min-height: 200px;
 }
 
 .projects-list {
-    background: palevioletred;
+    /* background: palevioletred; */
     height: auto;
     width: auto;
     margin: 20px;
@@ -210,7 +211,7 @@ header a:hover {
 }
 
 .flex-container-item {
-    background: white;
+    /* background: white; */
     /* background-color: rgba(255, 255, 255, 0.0); */
     text-align: center;
     align-items: stretch;
