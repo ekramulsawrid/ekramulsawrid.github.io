@@ -239,6 +239,10 @@ header a:hover {
     flex-grow: 1;
 }
 
+.image-play {
+    margin-top: 80px;
+}
+
 .hidden-message {
     color: black;
     text-align: center;
@@ -251,8 +255,8 @@ header a:hover {
     /* tansition: 0.15 ease;
     opacity: 0;
     text-align: center; */
-
 }
+
 .flex-container-item-picture:hover {
     transform: scale(1.1);
     -webkit-transform: scale(1.1);
@@ -296,6 +300,10 @@ header a:hover {
 
 .flex-container-item-picture:hover .hidden-message {
     opacity: 1;
+}
+
+.flex-container-item-picture:hover .image-play {
+    opacity: 0;
 }
 
 .flex-container-item-picture > img {
@@ -471,6 +479,10 @@ header a:hover {
         border-top-right-radius: 12px;
         border-bottom-left-radius: 0px;
         flex-grow: 6;
+    }
+
+    .image-play {
+        margin-top: 50px;
     }
 
     .flex-container-item-info {
