@@ -7,6 +7,7 @@ html {
     background-position: center center;
     overflow-y: auto;
 }
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
@@ -104,20 +105,63 @@ header a:hover {
     /* border-bottom: white 5px solid; */
 }
 
+:root {
+    --body-color: white;
+    --body-color-faded-3-1: linear-gradient(white, white, white, rgba(255, 255, 255, 0.8));
+    --body-color-faded-1-1: linear-gradient(white, rgba(255, 255, 255, 0.8));
+    --body-color-faded: rgba(255, 255, 255, 0.8);
+    --body-color-sat: whitesmoke;
+    --overlay-color: white;
+    --text-color: black;
+    --white-black: white;
+    --black-white: black;
+}
+
+.dark-theme {
+    --body-color: grey;
+    --body-color-faded-3-1: #22303c;
+    --body-color-faded-1-1: #22303c;
+    --body-color-faded: #22303c;
+    --body-color-sat: #192734;
+    --overlay-color: lightsteelblue;
+    --text-color: white;
+    --white-black: black;
+    --black-white: white; 
+}
+
 .main {
     margin: 15px auto;
     max-width: 1600px;
 }
 
 #poster {
-    color: black;
+    /* color: black; */
+    color: var(--text-color);
     text-align: center;
     /* background: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.75)); */
-    background: linear-gradient(white, white, white, rgba(255, 255, 255, 0.8));
+    /* background: linear-gradient(white, white, white, rgba(255, 255, 255, 0.8)); */
+    background: var(--body-color-faded-3-1);
     border-radius: 24px;
     margin: 15px;
     padding: 15px;
     min-height: 200px;
+}
+
+.themes {
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.theme-switch {
+    color: var(--text-color);
+    text-align: center;
+    width: 160px;
+    height: 40px;
+    border: 5px solid;
+    border-color: var(--text-color);
+    border-radius: 24px;
+    line-height: 40px;
 }
 
 #poster h1 {
@@ -127,10 +171,12 @@ header a:hover {
 }
 
 #links {
-    color: black;
+    /* color: black; */
+    color: var(--text-color);
     text-align: center;
     /* background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.50)); */
-    background: linear-gradient(white, rgba(255, 255, 255, 0.8));
+    /* background: linear-gradient(white, rgba(255, 255, 255, 0.8)); */
+    background: var(--body-color-faded-1-1);
     border-radius: 24px;
     margin: 10px;
     padding: 10px;
@@ -184,14 +230,16 @@ header a:hover {
 
 
 #projects-block {
-    color: black;
+    /* color: black; */
+    color: var(--text-color);
     background: rgba(255, 255, 255, 0.8);
     text-align: center;
     height: auto;
     padding-bottom: 10px;
     /* background: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.75)); */
     /* background: linear-gradient(white, rgba(255, 255, 255, 0.60), rgba(255, 255, 255, 0.30)); */
-    background: linear-gradient(white, rgba(255, 255, 255, 0.8));
+    /* background: linear-gradient(white, rgba(255, 255, 255, 0.8)); */
+    background: var(--body-color-faded-1-1);
     border-radius: 24px;
     margin: 15px;
     min-height: 200px;
@@ -276,7 +324,8 @@ header a:hover {
     /* -webkit-transition: 0.15s ease;
        -moz-transition: 0.15s ease;
          -o-transition: 0.15s ease; */
-    background: white;
+    /* background: white; */
+    background: var(--overlay-color);
     position: absolute;
     top: 0;
     left: 0;
@@ -315,7 +364,8 @@ header a:hover {
 }
 
 .flex-container-item-info {
-    background: whitesmoke;
+    /* background: whitesmoke; */
+    background: var(--body-color-sat);
     border-style: solid;
     border-top-right-radius: 12px;
     border-bottom-right-radius: 12px;
