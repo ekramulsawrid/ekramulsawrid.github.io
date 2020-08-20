@@ -330,7 +330,7 @@ header a:hover {
     top: 0;
     left: 0;
     opacity: 0;
-    border-radius: 12px;
+    border-radius: 6px;
 
     display: flex;
     justify-content: center;
