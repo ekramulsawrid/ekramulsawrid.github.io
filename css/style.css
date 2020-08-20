@@ -171,6 +171,7 @@ header a:hover {
 }
 
 #links {
+
     /* color: black; */
     color: var(--text-color);
     text-align: center;
@@ -180,21 +181,27 @@ header a:hover {
     border-radius: 24px;
     margin: 10px;
     padding: 10px;
-    min-height: 100px;
+    min-height: 80px;
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
     
 }
 
 .btn {
     display: inline-block;
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 67px;
     background-color: #f1f1f1;
     margin: 10px;
+    border: 5px solid #3498db;
     border-radius: 12px;
-    box-shadow: 0px 5px 15px 5px #00000070;
+    /* box-shadow: 0px 5px 15px 5px #00000070; */
     color: #3498db;
     overflow: hidden;
-    line-height: 80px;
+    padding-top: 4px;
+    /* line-height: 80px; */
 }
 
 .bth i {
@@ -202,7 +209,7 @@ header a:hover {
 }
 
 .btn:hover i {
-    transform: scale(2);
+    /* transform: scale(1.5); */
     color: #f1f1f1;
     transition: 0.15s linear;  
 }
