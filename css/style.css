@@ -422,7 +422,7 @@ header a:hover {
 
 .info-subinfo {
     font-size: 18px;
-    font-style: italic;
+    /* font-style: italic; */
     line-height: 1px;
 }
 
