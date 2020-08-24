@@ -282,11 +282,16 @@ header a:hover {
 
 .flex-container-item-picture {
     /* background: url("/img/graphOcean.jpg");  */
-    background-size: cover;
+    background: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: var(--body-color-faded);
     text-align: center;
+    border-style: solid;
+    border-color: var(--text-color);
+    border-width: 3px 0px 3px 3px;
     border-top-left-radius: 12px;
     border-bottom-left-radius: 12px;
-    
 
     width: 100px;
     margin: 0px;
@@ -536,6 +541,10 @@ header a:hover {
         border-top-right-radius: 12px;
         border-bottom-left-radius: 0px;
         flex-grow: 6;
+
+        border-style: solid;
+        border-color: var(--text-color);
+        border-width: 3px 3px 0px 3px;
     }
 
     .image-play {
