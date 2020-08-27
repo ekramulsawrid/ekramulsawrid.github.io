@@ -252,6 +252,11 @@ header a:hover {
     min-height: 200px;
 }
 
+#projects-block-title {
+    margin-top: 0px;
+    padding-top: 25px;
+}
+
 .projects-list {
     /* background: palevioletred; */
     height: auto;
