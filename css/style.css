@@ -347,7 +347,7 @@ header a:hover {
     top: 0;
     left: 0;
     opacity: 0;
-    border-radius: 12px;
+    border-radius: 9px;
 
     display: flex;
     justify-content: center;
@@ -425,6 +425,7 @@ header a:hover {
 .grid-project-info-description {
     height: 145px;
     max-height: 150px;
+    overflow: auto;
 }
 
 .grid-project-info-footer {
@@ -491,7 +492,14 @@ header a:hover {
 /* Media Queries */
 
 @media(max-width: 1200px) {
-    header #title-author,
+    
+    header #title-author {
+        float: none;
+        text-align: center;
+        width: 100%;
+        padding-left: 0px;
+    }
+
     header nav,
     header nav li {
         float: none;
@@ -512,7 +520,7 @@ header a:hover {
 @media(max-width: 700px) {
     header li {
         display: block;
-        margin: 5px;
+        /* margin: 5px; */
         padding: 0px;
     }
 
