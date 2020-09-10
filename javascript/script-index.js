@@ -10,11 +10,11 @@ if(currentTheme) {
 themeButton.addEventListener('click', function() {
     body.classList.toggle('dark-theme');
     if (body.classList.contains('dark-theme')) {
-        localStorage.setItem('currentTheme', 'darkThemeActive')
+        localStorage.setItem('currentTheme', 'darkThemeActive');
         document.getElementById("theme-name").innerHTML = "<b>⟳</b> Light Theme";
-    }
+    } 
     else {
-        localStorage.removeItem('currentTheme')
+        localStorage.removeItem('currentTheme');
         document.getElementById("theme-name").innerHTML = "<b>⟳</b> Dark Theme";
     }
-})
+});

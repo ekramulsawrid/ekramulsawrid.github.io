@@ -34,8 +34,8 @@
                         <div class="flex-container-item-picture" style="background-image: url('/img/project_thumbnail_ClassMe.PNG');">
                             <!-- <img src="/img/project_thumbnail_GPA_calculator.png"> -->
                             <a>
-                                <div class="project-thumbnail-overlay">
-                                    <p class="hidden-message">No Demo Avaliable</p>
+                                <div class="project-thumbnail-overlay" id="modal-open-classme">
+                                    <p class="hidden-message"><i class="fas fa-search-plus"></i></p>
                                 </div>
                             </a>
                         </div>
@@ -54,7 +54,7 @@
                                 <div class="grid-project-info-footer">
                                     <section id="project-links"> 
                                         <a class="project-links-btn" href="https://github.com/ekramulsawrid/classme">
-                                            <i class="fab fa-github fa-lg"></i>
+                                            <i class="fab fa-github"></i>
                                         </a>
                                     </section>
                                 </div>
@@ -64,10 +64,10 @@
                     <div class="flex-container-item">
                         <div class="flex-container-item-picture" style="background-image: url('/img/project_thumbnail_GPA_calculator.png');">
                             <!-- <img src="/img/project_thumbnail_GPA_calculator.png"> -->
-                            <a href="pages/video-GPA_Calculator.html">
+                            <a>
                                 <!-- <img width="150" height="150" src='img/play_symbol.png' class="image-play"/> -->
-                                <div class="project-thumbnail-overlay">
-                                    <p class="hidden-message">Demo</p>
+                                <div class="project-thumbnail-overlay" id="modal-open-gpacalculator">
+                                    <p class="hidden-message"><i class="fas fa-search-plus thumbnail-icon"></i></p>
                                 </div>
                             </a>
                         </div>
@@ -84,7 +84,10 @@
                                 <div class="grid-project-info-footer">
                                     <section id="project-links"> 
                                         <a class="project-links-btn" href="https://github.com/ekramulsawrid/GPACalculator">
-                                            <i class="fab fa-github fa-lg"></i>
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                        <a class="project-links-btn" href="pages/video-GPA_Calculator.html">
+                                            <i class="far fa-play-circle"></i>
                                         </a>
                                     </section>
                                 </div>
@@ -111,8 +114,8 @@
                         <div class="flex-container-item-picture" style="background-image: url('/img/project_thumbnail_give_me_my_gems.png');">
                             <!-- <img src="/img/project_thumbnail_GPA_calculator.png"> -->
                             <a>
-                                <div class="project-thumbnail-overlay">
-                                    <p class="hidden-message">No Demo Avaliable</p>
+                                <div class="project-thumbnail-overlay" id="modal-open-givememygems">
+                                    <p class="hidden-message"><i class="fas fa-search-plus thumbnail-icon"></i></p>
                                 </div>
                             </a>
                         </div>
@@ -129,7 +132,7 @@
                                 <div class="grid-project-info-footer">
                                     <section id="project-links"> 
                                         <a class="project-links-btn" href="https://github.com/ekramulsawrid/give_me_my_gems">
-                                            <i class="fab fa-github fa-lg"></i>
+                                            <i class="fab fa-github"></i>
                                         </a>
                                     </section>
                                 </div>
@@ -153,7 +156,37 @@
                 </div>
             </section>
         </main>
-        <script src="javascript/script.js">
+        <div id="modal-container-classme">
+            <div class="modal-box">
+                <div class="modal-box-header">
+                    <i class="fas fa-times-circle" id="modal-close-classme"></i>
+                </div>
+                    <div class="modal-box-image" style="background-image: url(/img/project_thumbnail_ClassMe.PNG)">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="modal-container-gpacalculator">
+            <div class="modal-box">
+                <div class="modal-box-header">
+                    <i class="fas fa-times-circle" id="modal-close-gpacalculator"></i>
+                </div>
+                    <div class="modal-box-image" style="background-image: url(/img/project_thumbnail_GPA_calculator.png)">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="modal-container-givememygems">
+            <div class="modal-box">
+                <div class="modal-box-header">
+                    <i class="fas fa-times-circle" id="modal-close-givememygems"></i>
+                </div>
+                    <div class="modal-box-image" style="background-image: url(/img/project_thumbnail_give_me_my_gems.png)">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="javascript/script-projects.js">
         </script>
     </body>
 </html>
