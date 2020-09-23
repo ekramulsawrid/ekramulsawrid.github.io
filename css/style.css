@@ -1,5 +1,4 @@
 html {
-    /* background-image: url("../img/graphOcean.jpg"); */
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
@@ -19,18 +18,11 @@ body {
 .background {
     width: 100%;
     height: 100%;
-    /* background-image: url("/img/graphOcean.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    overflow-y: auto; */
     background-color: #494b68;
 }
 .container {
-    /* width: 90%; */
     min-width: auto;
     margin: auto;
-    /* margin: 0px 15px; */
 
     max-width: 1570px;
 }
@@ -71,28 +63,7 @@ header #title-author {
 header #title-author h1 {
     margin: 0;
 }
-/* #title-author:hover {
-    animation-name: effect-brand;
-    animation-duration: 2s;
-}
 
-@keyframes effect-brand {
-    0% {
-        color: #00feca;
-    }
-    25% {
-        color: #fdf200 
-    }
-    50% {
-        color: #ff85ea;
-    }
-    75% {
-        color: #7b61f8;
-    }
-    100% {
-        color: #00feca;;
-    }
-} */
 
 header nav {
     float: right;
@@ -103,7 +74,6 @@ header a:hover {
     background-color: white;
     color: black;
     border-radius: 12px;
-    /* border-bottom: white 5px solid; */
 }
 
 :root {
@@ -136,11 +106,8 @@ header a:hover {
 }
 
 #poster {
-    /* color: black; */
     color: var(--text-color);
     text-align: center;
-    /* background: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.75)); */
-    /* background: linear-gradient(white, white, white, rgba(255, 255, 255, 0.8)); */
     background: var(--body-color-faded-3-1);
     border-radius: 6px;
     margin: 15px;
@@ -178,12 +145,8 @@ header a:hover {
 }
 
 #links {
-
-    /* color: black; */
     color: var(--text-color);
     text-align: center;
-    /* background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.50)); */
-    /* background: linear-gradient(white, rgba(255, 255, 255, 0.8)); */
     background: var(--body-color-faded-1-1);
     border-radius: 6px;
     margin: 15px;
@@ -204,11 +167,9 @@ header a:hover {
     margin: 10px;
     border: 5px solid #3498db;
     border-radius: 12px;
-    /* box-shadow: 0px 5px 15px 5px #00000070; */
     color: #3498db;
     overflow: hidden;
     padding-top: 4px;
-    /* line-height: 80px; */
 }
 
 .bth i {
@@ -216,7 +177,6 @@ header a:hover {
 }
 
 .btn:hover i {
-    /* transform: scale(1.5); */
     color: #f1f1f1;
     transition: 0.15s linear;  
 }
@@ -244,15 +204,11 @@ header a:hover {
 
 
 #projects-block {
-    /* color: black; */
     color: var(--text-color);
     background: rgba(255, 255, 255, 0.8);
     text-align: center;
     height: auto;
     padding-bottom: 10px;
-    /* background: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.75)); */
-    /* background: linear-gradient(white, rgba(255, 255, 255, 0.60), rgba(255, 255, 255, 0.30)); */
-    /* background: linear-gradient(white, rgba(255, 255, 255, 0.8)); */
     background: var(--body-color-faded-1-1);
     border-radius: 6px;
     margin: 15px;
@@ -266,7 +222,6 @@ header a:hover {
 }
 
 .projects-list {
-    /* background: palevioletred; */
     height: auto;
     width: auto;
     margin: 0px 20px 20px 20px;
@@ -279,8 +234,6 @@ header a:hover {
 }
 
 .flex-container-item {
-    /* background: white; */
-    /* background-color: rgba(255, 255, 255, 0.0); */
     text-align: center;
     align-items: stretch;
     height: 300px;
@@ -294,7 +247,6 @@ header a:hover {
 }
 
 .flex-container-item-picture {
-    /* background: url("/img/graphOcean.jpg");  */
     background: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -323,16 +275,6 @@ header a:hover {
 .hidden-message {
     color: black;
     text-align: center;
-    /* font-weight: bold; */
-    /* line-height: 150px;
-    color: black;
-    font-size: 25px;
-    text-align: center;
-    opacity: 0;
-    transition: 0.15s ease; */
-    /* tansition: 0.15 ease;
-    opacity: 0;
-    text-align: center; */
 }
 
 .flex-container-item-picture:hover {
@@ -354,11 +296,7 @@ header a:hover {
     /* -webkit-transition: 0.15s ease;
        -moz-transition: 0.15s ease;
          -o-transition: 0.15s ease; */
-    /* background: white; */
     background: var(--overlay-color);
-    /* position: absolute;
-    top: 0;
-    left: 0; */
     opacity: 0;
     border-radius: 9px;
     font-size: 50px;
@@ -373,10 +311,6 @@ header a:hover {
     height: 100%;
     width: 100%;
 }
-
-/* .flex-container-item-picture:hover img {
-    border-radius: 12px;
-} */
 
 .flex-container-item-picture:hover .hidden-message {
     opacity: 1;
@@ -395,7 +329,6 @@ header a:hover {
 }
 
 .flex-container-item-info {
-    /* background: whitesmoke; */
     background: var(--body-color-sat);
     border-style: solid;
     border-width: 2px;
@@ -404,18 +337,14 @@ header a:hover {
     padding: 0px 5px 0px 15px;
 
     width: 100px;
-    /* height: 100px; */
     line-height: 20px;
     margin: 0px;
-    /* max-height: 100px; */
 
     flex-grow: 6;
     text-align: left;
 }
 
 .grid-project-info {
-    /* background: palegreen; */
-    /* border-style: solid; */
     border-top-right-radius: 12px;
     border-bottom-right-radius: 12px;
     width: 100%;
@@ -448,7 +377,6 @@ header a:hover {
 
 .info-subinfo {
     font-size: 18px;
-    /* font-style: italic; */
     line-height: 1px;
 }
 
