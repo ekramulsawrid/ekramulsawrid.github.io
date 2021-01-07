@@ -18,7 +18,7 @@ body {
 .background {
     width: 100%;
     height: 100%;
-    background-color: #494b68;
+    background-color: slategray;
 }
 .container {
     min-width: auto;
@@ -402,6 +402,7 @@ header a:hover {
     width: 15%;
     min-width: 40px;
     border-radius: 6px;
+    border-width: 2px;
     color: #3498db;
     overflow: hidden;
     border-color: #3498db;
