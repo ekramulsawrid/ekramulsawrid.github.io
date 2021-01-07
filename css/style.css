@@ -558,12 +558,16 @@ header a:hover {
         margin-bottom: 20px;
     }
 
+    .main {
+        margin: 5px auto;
+    }
+
     #poster {
-        margin: 15px 5px;
+        margin: 5px 5px;
     }
 
     #links {
-        margin: 15px 5px;
+        margin: 5px 5px;
     }
 
     #projects-block {
@@ -580,7 +584,6 @@ header a:hover {
     .flex-container-item {
         flex-direction: column;
         height: 500px;
-
     }
 
     .flex-container-item-picture {
