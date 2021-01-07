@@ -159,13 +159,17 @@ header a:hover {
     
 }
 
+.links-label {
+    font-size: 16px;
+}
+
 .btn {
     display: inline-block;
-    width: 70px;
-    height: 67px;
+    width: 50px;
+    height: 47px;
     background-color: #f1f1f1;
     margin: 10px;
-    border: 5px solid #3498db;
+    border: 3px solid #3498db;
     border-radius: 12px;
     color: #3498db;
     overflow: hidden;
